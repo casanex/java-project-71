@@ -5,7 +5,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
+
 
 public class Differ {
     public static String generate(String filePath1, String filePath2, String format) throws Exception {
@@ -20,7 +20,7 @@ public class Differ {
 
         List<Map<String, Object>> result = FinderDifference.differ(map1, map2);
         return Formatter.formatStyle(result, format);
-                    }
+    }
     public static String generate(String pathfile1, String pathfile2) throws Exception {
         return generate(pathfile1, pathfile2, "stylish");
     }
