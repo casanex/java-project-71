@@ -13,8 +13,8 @@ public class DifferTest {
 
     private final String path1 = "src/test/resources/filenumber1.json";
     private final String path2 = "src/test/resources/filenumber2.json";
-    private final String path3 = "app/src/test/resources/filenumber1.yml";
-    private final String path4 = "app/src/test/resources/filenumber2.yml";
+    private final String path3 = "src/test/resources/filenumber1.yml";
+    private final String path4 = "src/test/resources/filenumber2.yml";
 
     private final Path pathStylish =
             Paths.get("src/test/resources/expected/testStylish").toAbsolutePath().normalize();
