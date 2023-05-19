@@ -20,9 +20,9 @@ public class App implements Callable<Integer> {
         private String filepath2;
 
     @Option(names = {"-V", "--version"}, versionHelp = true, description = "Print version information and exit.")
-        boolean versionInfoRequested;
+        private boolean versionInfoRequested;
     @Option(names = {"-h", "--help"}, usageHelp = true, description = "Show this help message and exit.")
-        boolean usageHelpRequested;
+        private boolean usageHelpRequested;
 
     @Override
     public Integer call() throws Exception {
