@@ -6,3 +6,8 @@
 
 Output of help information and version
 <a href="https://asciinema.org/a/WnIN0CbQXgiyjbJYSz4IaJFVs" target="_blank"><img src="https://asciinema.org/a/WnIN0CbQXgiyjbJYSz4IaJFVs.svg" /></a>
+<a href="https://asciinema.org/a/iFw2e5ahzW0OMmAyn4M33ernR" target="_blank"><img src="https://asciinema.org/a/iFw2e5ahzW0OMmAyn4M33ernR.svg" /></a>
+<a href="https://asciinema.org/a/zRfUmF7PGpYl4hYLXGpxvkKtF" target="_blank"><img src="https://asciinema.org/a/zRfUmF7PGpYl4hYLXGpxvkKtF.svg" /></a>
+<a href="https://asciinema.org/a/rvekRngU0KNtBvbXUPWlxaoK0" target="_blank"><img src="https://asciinema.org/a/rvekRngU0KNtBvbXUPWlxaoK0.svg" /></a>
+<a href="https://asciinema.org/a/yAjfzVXfA8dO4cW37tAdtwQxd" target="_blank"><img src="https://asciinema.org/a/yAjfzVXfA8dO4cW37tAdtwQxd.svg" /></a>
+<a href="https://asciinema.org/a/Pudks2OGkgaFlIXT2DIMWsI4Y" target="_blank"><img src="https://asciinema.org/a/Pudks2OGkgaFlIXT2DIMWsI4Y.svg" /></a>
