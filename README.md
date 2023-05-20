@@ -6,5 +6,3 @@
 
 Output of help information and version
 <a href="https://asciinema.org/a/WnIN0CbQXgiyjbJYSz4IaJFVs" target="_blank"><img src="https://asciinema.org/a/WnIN0CbQXgiyjbJYSz4IaJFVs.svg" /></a>
-<a href="https://asciinema.org/a/9nCGe08Ca1mr6OCr8yDXHDoAe" target="_blank"><img src="https://asciinema.org/a/9nCGe08Ca1mr6OCr8yDXHDoAe.svg" /></a>
-<a href="https://asciinema.org/a/Xi9RwCx66MwEajateGldrc7XA" target="_blank"><img src="https://asciinema.org/a/Xi9RwCx66MwEajateGldrc7XA.svg" /></a>
