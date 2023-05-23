@@ -31,6 +31,11 @@ public class DifferTest {
         String expected = Files.readString(pathStylish);
         assertEquals(expected, Differ.generate(path1, path2));
     }
+    @Test
+    public void test2() throws Exception {
+        String expected = Files.readString(pathStylish);
+        assertEquals(expected, Differ.generate(path3, path4));
+    }
 
     @Test
     public void testStylish1() throws Exception {
