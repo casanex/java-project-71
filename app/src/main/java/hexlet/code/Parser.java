@@ -17,3 +17,4 @@ public class Parser {
         return "json".equals(fileType) ? new ObjectMapper() : new ObjectMapper(new YAMLFactory());
     }
 }
+
