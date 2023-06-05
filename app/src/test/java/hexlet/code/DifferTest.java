@@ -32,48 +32,48 @@ public class DifferTest {
         pathToExpectedPlain = "src/test/resources/expected/testPlain";
         pathToExpectedJson = "src/test/resources/expected/testJson";
     }
-        @Test
+    @Test
         public void testGenerateStylishFromYaml() throws Exception {
         String expected = readingString(pathToExpectedStylish);
         assertEquals(expected, Differ.generate(PATH3_YML, PATH4_YML));
     }
-        @Test
+    @Test
         public void testGenerateStylishFromJson() throws Exception {
         String expected = readingString(pathToExpectedStylish);
         assertEquals(expected, Differ.generate(PATH1_JSON, PATH2_JSON));
     }
 
-        @Test
+    @Test
         public void testStylish1() throws Exception {
         String expected = readingString(pathToExpectedStylish);
         assertEquals(expected, Differ.generate(PATH1_JSON, PATH2_JSON, "stylish"));
     }
 
-        @Test
+    @Test
         public void testStylish2() throws Exception {
         String expected = readingString(pathToExpectedStylish);
         assertEquals(expected, Differ.generate(PATH3_YML, PATH4_YML, "stylish"));
     }
 
-        @Test
+    @Test
         public void testPlain1() throws Exception {
         String expected = readingString(pathToExpectedPlain);
         assertEquals(expected, Differ.generate(PATH1_JSON, PATH2_JSON, "plain"));
     }
 
-        @Test
+    @Test
         public void testPlain2() throws Exception {
         String expected = readingString(pathToExpectedPlain);
         assertEquals(expected, Differ.generate(PATH3_YML, PATH4_YML, "plain"));
     }
 
-        @Test
+    @Test
         public void testJson1() throws Exception {
         String expected = readingString(pathToExpectedJson);
         assertEquals(expected, Differ.generate(PATH1_JSON, PATH2_JSON, "json"));
     }
 
-        @Test
+    @Test
         public void testJson2() throws Exception {
         String expected = readingString(pathToExpectedJson);
         assertEquals(expected, Differ.generate(PATH3_YML, PATH4_YML, "json"));
