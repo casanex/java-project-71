@@ -19,7 +19,7 @@ public class DifferTest {
     private static final String PATH4_YML = "src/test/resources/filenumber2.yml";
 
 
-    private String readString(String toNormalize) throws IOException {
+    private static String readString(String toNormalize) throws IOException {
         return Files.readString(Paths.get(toNormalize).toAbsolutePath().normalize());
     }
 
