@@ -36,48 +36,48 @@ public class DifferTest {
         public void testGenerateStylishFromYaml() throws Exception {
         String expected = readingString(PATH_TO_EXPECTED_STYLISH);
         assertEquals(expected, Differ.generate(PATH3_YML, PATH4_YML));
-        }
+    }
         @Test
         public void testGenerateStylishFromJson() throws Exception {
         String expected = readingString(PATH_TO_EXPECTED_STYLISH);
         assertEquals(expected, Differ.generate(PATH1_JSON, PATH2_JSON));
-        }
+    }
 
         @Test
         public void testStylish1() throws Exception {
         String expected = readingString(PATH_TO_EXPECTED_STYLISH);
         assertEquals(expected, Differ.generate(PATH1_JSON, PATH2_JSON, "stylish"));
-        }
+    }
 
         @Test
         public void testStylish2() throws Exception {
         String expected = readingString(PATH_TO_EXPECTED_STYLISH);
         assertEquals(expected, Differ.generate(PATH3_YML, PATH4_YML, "stylish"));
-        }
+    }
 
         @Test
         public void testPlain1() throws Exception {
         String expected = readingString(PATH_TO_EXPECTED_PLAIN);
         assertEquals(expected, Differ.generate(PATH1_JSON, PATH2_JSON, "plain"));
-        }
+    }
 
         @Test
         public void testPlain2() throws Exception {
         String expected = readingString(PATH_TO_EXPECTED_PLAIN);
         assertEquals(expected, Differ.generate(PATH3_YML, PATH4_YML, "plain"));
-        }
+    }
 
         @Test
         public void testJson1() throws Exception {
         String expected = readingString(PATH_TO_EXPECTED_JSON);
         assertEquals(expected, Differ.generate(PATH1_JSON, PATH2_JSON, "json"));
-        }
+    }
 
         @Test
         public void testJson2() throws Exception {
         String expected = readingString(PATH_TO_EXPECTED_JSON);
         assertEquals(expected, Differ.generate(PATH3_YML, PATH4_YML, "json"));
-        }
+    }
 
 }
 
