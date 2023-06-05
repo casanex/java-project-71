@@ -32,7 +32,7 @@ public class DifferTest {
         expectedPlain = readString("src/test/resources/expected/testPlain");
         expectedJson = readString("src/test/resources/expected/testJson");
     }
-     @Test
+    @Test
         public void testGenerateStylishFromYaml() throws Exception {
         assertEquals(expectedStylish, Differ.generate(PATH3_YML, PATH4_YML));
     }
