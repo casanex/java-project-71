@@ -19,11 +19,6 @@ public class App implements Callable<Integer> {
     @Parameters(paramLabel = "filepath2", description = "path to second file")
         private String filepath2;
 
-    @Option(names = {"-V", "--version"}, versionHelp = true, description = "Print version information and exit.")
-        private boolean versionInfoRequested;
-    @Option(names = {"-h", "--help"}, usageHelp = true, description = "Show this help message and exit.")
-        private boolean usageHelpRequested;
-
     @Override
     public final Integer call() throws Exception {
         System.out.println(Differ.generate(filepath1, filepath2, format));

@@ -18,7 +18,7 @@ public class Differ {
         Map<String, Object> map1 = Parser.parser(data1, fileType1);
         Map<String, Object> map2 = Parser.parser(data2, fileType2);
 
-        List<Map<String, Object>> result = FinderDifference.differ(map1, map2);
+        List<Map<String, Object>> result = DifferenceFinder.differ(map1, map2);
         return Formatter.formatStyle(result, format);
     }
     public static String generate(String pathfile1, String pathfile2) throws Exception {
@@ -30,6 +30,7 @@ public class Differ {
 
     }
     public static String getFType(String filepath) {
-        return filepath.substring(filepath.indexOf(".") + 1);
+
+        return filepath.substring(filepath.lastIndexOf(".") + 1);
     }
 }
