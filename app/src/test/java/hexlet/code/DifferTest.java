@@ -27,7 +27,7 @@ public class DifferTest {
     public DifferTest() throws IOException {
     }
     @BeforeAll
-    public static final void initString() {
+    public static void initString() {
         pathToExpectedStylish = "src/test/resources/expected/testStylish";
         pathToExpectedPlain = "src/test/resources/expected/testPlain";
         pathToExpectedJson = "src/test/resources/expected/testJson";
