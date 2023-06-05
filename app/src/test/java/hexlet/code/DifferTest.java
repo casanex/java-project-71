@@ -19,7 +19,7 @@ public class DifferTest {
     private static final String PATH4_YML = "src/test/resources/filenumber2.yml";
 
 
-    private String readingString(String toNormalize) throws IOException {
+    private String readString(String toNormalize) throws IOException {
         return Files.readString(Paths.get(toNormalize).toAbsolutePath().normalize());
     }
 
@@ -34,48 +34,48 @@ public class DifferTest {
     }
     @Test
         public void testGenerateStylishFromYaml() throws Exception {
-        String expected = readingString(pathToExpectedStylish);
+        String expected = readString(pathToExpectedStylish);
         assertEquals(expected, Differ.generate(PATH3_YML, PATH4_YML));
     }
     @Test
         public void testGenerateStylishFromJson() throws Exception {
-        String expected = readingString(pathToExpectedStylish);
+        String expected = readString(pathToExpectedStylish);
         assertEquals(expected, Differ.generate(PATH1_JSON, PATH2_JSON));
     }
 
     @Test
         public void testStylish1() throws Exception {
-        String expected = readingString(pathToExpectedStylish);
+        String expected = readString(pathToExpectedStylish);
         assertEquals(expected, Differ.generate(PATH1_JSON, PATH2_JSON, "stylish"));
     }
 
     @Test
         public void testStylish2() throws Exception {
-        String expected = readingString(pathToExpectedStylish);
+        String expected = readString(pathToExpectedStylish);
         assertEquals(expected, Differ.generate(PATH3_YML, PATH4_YML, "stylish"));
     }
 
     @Test
         public void testPlain1() throws Exception {
-        String expected = readingString(pathToExpectedPlain);
+        String expected = readString(pathToExpectedPlain);
         assertEquals(expected, Differ.generate(PATH1_JSON, PATH2_JSON, "plain"));
     }
 
     @Test
         public void testPlain2() throws Exception {
-        String expected = readingString(pathToExpectedPlain);
+        String expected = readString(pathToExpectedPlain);
         assertEquals(expected, Differ.generate(PATH3_YML, PATH4_YML, "plain"));
     }
 
     @Test
         public void testJson1() throws Exception {
-        String expected = readingString(pathToExpectedJson);
+        String expected = readString(pathToExpectedJson);
         assertEquals(expected, Differ.generate(PATH1_JSON, PATH2_JSON, "json"));
     }
 
     @Test
         public void testJson2() throws Exception {
-        String expected = readingString(pathToExpectedJson);
+        String expected = readString(pathToExpectedJson);
         assertEquals(expected, Differ.generate(PATH3_YML, PATH4_YML, "json"));
     }
 
